@@ -1,0 +1,53 @@
+student = {
+    "name" : "Ajay",
+    "age " : 28,
+    "Course" : "python"
+}
+
+print(student)
+print(type(student))
+
+color = {
+    "mango" : "Yellow",
+    "Orange" : "Green",
+    "apple" : "red"
+}
+
+print(color)
+print(type(color))
+
+
+person = {}
+
+person["name"] = "John"
+person["Age"]=23
+person["location"]="Mumbai"
+
+print(person)
+# Access the value from the dictionary
+print(person["name"])
+
+xy = {
+    "a" : 10,
+    "b" : 10,
+    "c" : 30
+}
+
+print(xy["a"])
+
+num1 = {
+    1 : "Test",
+    1 : "Test2"
+}
+print(num1[1])
+print(num1.get(1))
+
+bank = {
+    "ICIC" : "icici prudential bank",
+    "HDFC" : "hdfc prudential bank",
+    "SBI" : "State bank of India"
+}
+
+print(bank)
+print(type(bank))
+print(bank.get("HDFC"))
